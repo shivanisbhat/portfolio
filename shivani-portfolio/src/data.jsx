@@ -5,12 +5,13 @@ import weatherAppImg from "./assets/projects/Weatherapp.png";
 import deloitteCert from "./assets/certificates/Deloitte.jpg";
 import skyscannerCert from './assets/certificates/Skyscanner.jpg';
 import googleCert from './assets/certificates/GenAIworkshop.jpg';
+import nyayaAiImg from './assets/projects/NyayaAI.png';
 
 
 export const portfolioData = {
   name: "Shivani Santhosh Kumar Bhat",
   tagline: "Front-End Developer Pivoting to Cybersecurity",
-  bio: "A detail-oriented Computer Science student with a robust background in Python and front-end web development. My hands-on experience in building and deploying interfaces gives me a unique, developer-first perspective on usability and potential vulnerabilities.",
+  bio: "I'm a frontend developer transitioning into cybersecurity. My experience building web applications sparked my curiosity about security.I wanted to understand not just how to build secure code, but how attackers think. I'm currently diving into penetration testing, studying web vulnerabilities, and actively learning through hands-on platforms like TryHackMe. My development background gives me a unique advantage in understanding application security from both the builder's and breaker's perspectives. When I'm not learning about exploits or coding, you'll find me exploring Kerala's tech scene. I'm eager to connect with cybersecurity professionals and contribute to making the web more secure.",
   // Contact information
   contact: {
     email: "shivanispg@gmail.com",
@@ -54,8 +55,23 @@ export const portfolioData = {
     },
   ],
   
-  // --- MODIFIED PROJECTS SECTION ---
   projects: [
+    {
+      title: "AMMAYI-GPT",
+      description: "A real-time voice-first web app with React and WebRTC, integrating Google Gemini APIs for conversational logic and audio synthesis.",
+      tech: ["React.js", "Gemini-AI", "WebRTC"],
+      liveUrl: "https://ammayi-gpt.vercel.app/",
+      githubUrl: "https://github.com/shivanisbhat",
+      imageUrl: ammayiGptImg, 
+    },
+    {
+      title: "NyayaAI (Google Gen AI Hackathon)",
+      description: "Group project focused on simplifying legal documents clause-by-clause. I built the entire front end: file upload, extracted-text preview, language selector, and polished UI.",
+      tech: ["React", "HTML", "CSS"],
+      liveUrl: "https://gen-ai-nyaya-ai-1.onrender.com/",
+      githubUrl: "https://github.com/shivanisbhat/Gen-Ai-Nyaya-Ai",
+      imageUrl: nyayaAiImg,
+    },
     {
       title: "Dynamic Weather Dashboard",
       description: "A responsive weather dashboard deployed on Render that shows current conditions and short-term forecast for searched locations.",
@@ -65,20 +81,12 @@ export const portfolioData = {
       imageUrl: weatherAppImg,
     },
     {
-      title: "AMMAYI-GPT",
-      description: "A real-time voice-first web app with React and WebRTC, integrating Google Gemini APIs for conversational logic and audio synthesis.",
-      tech: ["React.js", "Gemini-AI", "WebRTC"],
-      liveUrl: "https://ammayi-gpt.vercel.app/",
-      githubUrl: "https://github.com/shivanisbhat",
-      imageUrl: ammayiGptImg, // Add this line
-    },
-    {
       title: "MOODY-TRAVELLER",
       description: "A web app that tracks users' moods and suggests personalized travel destinations to enhance emotional well-being.",
       tech: ["HTML", "CSS", "JS", "Gemini-AI"],
       liveUrl: null,
       githubUrl: "https://github.com/shivanisbhat/Moody-Traveler",
-      imageUrl: moodyTravellerImg, // Add this line
+      imageUrl: moodyTravellerImg, 
     },
     {
       title: "Movie Review Website",
@@ -86,7 +94,7 @@ export const portfolioData = {
       tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
       liveUrl: null,
       githubUrl: "https://github.com/shivanisbhat",
-      //imageUrl: movieReviewImg, // Add this line
+      //imageUrl: movieReviewImg, 
     },
   ],
   

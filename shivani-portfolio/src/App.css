@@ -513,7 +513,7 @@ section {
 }
 
 .btn::before {
-  content: 'DB';
+  content: '';
   position: absolute;
   top: 0;
   left: -100%;
@@ -838,7 +838,7 @@ section {
 }
 
 .skill-category h3::before {
-  content: 'DB';
+  content: '';
   width: 35px;
   height: 35px;
   background: var(--primary-color);
@@ -1015,7 +1015,7 @@ section {
 }
 
 .project-card::before {
-  content: 'DB';
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -1171,7 +1171,7 @@ section {
 }
 
 .certification-card h3::before {
-  content: 'DB';
+  content: '';
   width: 24px;
   height: 24px;
   background: rgba(0, 217, 255, 0.2);
@@ -1233,7 +1233,7 @@ section {
 }
 
 .contact-info p::before {
-  content: 'DB';
+  content: '';
   position: absolute;
   left: 1.5rem;
   top: 50%;

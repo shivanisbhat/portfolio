@@ -25,9 +25,6 @@ const Certifications = () => {
               }}></div>
             )}
             <p>{cert.title}</p>
-            {portfolioData.contact && portfolioData.contact.credly && (
-              <a href={portfolioData.contact.credly} target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{marginTop: '0.75rem'}}>Verify</a>
-            )}
           </div>
         ))}
       </div>
