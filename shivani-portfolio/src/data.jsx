@@ -42,17 +42,7 @@ export const portfolioData = {
         "Optimized database queries and improved application performance, resulting in faster load times.",
         "Implemented user authentication and authorization features using JWT and bcrypt for enhanced security.",
       ],
-    },
-    {
-      role: "Front End Developer",
-      company: "Edunet Foundation",
-      date: "Aug 2025 - Sept 2025",
-      description: [
-        "Worked on developing responsive and user-friendly web interfaces using HTML, CSS, JavaScript.",
-        "Collaborated with mentors to apply UI/UX practices, improve performance, and ensure compatibility across browsers.",
-        "Gained practical exposure to industry-standard front-end workflows while contributing to real-world project scenarios.",
-      ],
-    },
+    }
   ],
   
   projects: [
