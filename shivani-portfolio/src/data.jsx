@@ -36,11 +36,10 @@ export const portfolioData = {
       company: "Up-to-Skill",
       date: "Oct 2025 - Jan 2026",
       description: [
-        "Developed and maintained full-stack web applications using MongoDB, Express.js, React.js, and Node.js.",
-        "Designed and implemented RESTful APIs for seamless communication between front-end and back-end services.",
-        "Collaborated with cross-functional teams to deliver scalable and efficient solutions for client requirements.",
-        "Optimized database queries and improved application performance, resulting in faster load times.",
-        "Implemented user authentication and authorization features using JWT and bcrypt for enhanced security.",
+        "Actively involved in the full-stack development life cycle, contributing to applications built with the MERN stack.",
+        "Responsible for building front-end components using React.js and creating server-side APIs with Node.js and Express.js.",
+        "Gaining practical experience in database management with MongoDB, API development, and version control with Git.",
+        "Assisting with debugging, code reviews, and optimising application performance.",
       ],
     }
   ],
