@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="experience-container">
         {portfolioData.experience.map((job, index) => (
           <div key={index} className="experience-item">
-            <h3>{job.role} - <span>{job.company}</span></h3>
+            <h3>{job.role}  <span>{job.company}</span></h3>
             <p className="date">{job.date}</p>
             <ul>
               {job.description.map((point, i) => (
