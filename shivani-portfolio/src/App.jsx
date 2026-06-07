@@ -8,9 +8,11 @@ import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skill';
 import Experience from './components/Experience';
+import FeaturedProjects from './components/FeaturedProjects';
 import Projects from './components/Project';
 import Certifications from './components/Certification';
 import Contact from './components/Contact';
+import LeetCode from "./components/LeetCode";
 
 function App() {
   return (
@@ -20,10 +22,12 @@ function App() {
         <Hero />
         <About />
         <Education />
-        <Skills />
         <Experience />
+        <FeaturedProjects />
         <Projects />
         <Certifications />
+        <Skills />
+        <LeetCode />
         <Contact />
       </main>
     </div>

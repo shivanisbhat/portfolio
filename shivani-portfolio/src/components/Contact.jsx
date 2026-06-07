@@ -23,7 +23,7 @@ const Contact = () => {
             </span>
             <div style={{minWidth: 0}}>
               <strong style={{display: 'block', color: 'var(--primary-color)', fontSize: '0.85rem', marginBottom: '0.25rem'}}>Email</strong>
-              <a href={`mailto:${portfolioData.contact.email}`} style={{display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#fff', textDecoration: 'none'}}>{portfolioData.contact.email}</a>
+              <a href={`mailto:${portfolioData.contact.email}`} style={{display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', textDecoration: 'none'}}>{portfolioData.contact.email}</a>
             </div>
           </div>
           <div className="contact-card" style={{display: 'flex', alignItems: 'center', background: 'var(--card-background)', borderRadius: '16px', padding: '1.5rem'}}>
@@ -33,7 +33,7 @@ const Contact = () => {
             </span>
             <div style={{minWidth: 0}}>
               <strong style={{display: 'block', color: 'var(--primary-color)', fontSize: '0.85rem', marginBottom: '0.25rem'}}>Phone</strong>
-              <span style={{display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#fff'}}>{portfolioData.contact.phone}</span>
+              <a href={`tel:${portfolioData.contact.phone}`} style={{display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', textDecoration: 'none'}}>{portfolioData.contact.phone}</a>
             </div>
           </div>
           <div className="contact-card" style={{display: 'flex', alignItems: 'center', background: 'var(--card-background)', borderRadius: '16px', padding: '1.5rem'}}>
@@ -43,7 +43,7 @@ const Contact = () => {
             </span>
             <div style={{minWidth: 0}}>
               <strong style={{display: 'block', color: 'var(--primary-color)', fontSize: '0.85rem', marginBottom: '0.25rem'}}>Location</strong>
-              <span style={{display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: '#fff'}}>{portfolioData.contact.location}</span>
+              <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(portfolioData.contact.location)}`} target="_blank" rel="noopener noreferrer" style={{display: 'block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', textDecoration: 'none'}}>{portfolioData.contact.location}</a>
             </div>
           </div>
         </div>

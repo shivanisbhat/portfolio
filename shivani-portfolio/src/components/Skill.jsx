@@ -4,7 +4,7 @@ import React from 'react';
 import { portfolioData } from '../data';
 
 const Skills = () => {
-  const { languages, frameworks, databases, security, soft } = portfolioData.skills;
+  const { languages, frameworks, databases, security, soft, iot } = portfolioData.skills;
 
   return (
     <section id="skills" className="content-section">
@@ -19,8 +19,12 @@ const Skills = () => {
           <ul>{security.map(skill => <li key={skill}>{skill}</li>)}</ul>
         </div>
         <div className="skill-category">
-          <h3>Frameworks & Technologies</h3>
+          <h3>Fullstack Development</h3>
           <ul>{frameworks.map(skill => <li key={skill}>{skill}</li>)}</ul>
+        </div>
+        <div className="skill-category">
+          <h3>IOT</h3>
+          <ul>{iot.map(skill => <li key={skill}>{skill}</li>)}</ul>
         </div>
         <div className="skill-category">
           <h3>Databases</h3>
