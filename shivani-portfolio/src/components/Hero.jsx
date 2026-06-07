@@ -2,6 +2,7 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import { portfolioData } from '../data';
+import resumePdf from '../assets/Shivani Santhosh Kumar Bhat (3).pdf';
 
 const Hero = () => {
   const roles = useMemo(
@@ -80,9 +81,10 @@ const Hero = () => {
           <span className="role-text">{displayed}</span>
         </p>
         <div className="hero-buttons">
-          <a href="#projects" className="btn btn-secondary">View My Projects</a>
+          <a href="#featured-projects" className="btn btn-secondary">View My Projects</a>
           <a href={portfolioData.contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
           <a href={portfolioData.contact.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
+          <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Resume</a>
         </div>
       </div>
     </section>

@@ -629,7 +629,34 @@ section {
   transform: translateY(-2px);
 }
 
-/* ── Experience ──────────────────────────────────────────── */
+.leetcode-section {
+  text-align: center;
+}
+
+.leetcode-container {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.leetcode-card {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  padding: 1rem;
+}
+
+.leetcode-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
 .experience-container {
   max-width: 900px;
   margin: 0 auto;

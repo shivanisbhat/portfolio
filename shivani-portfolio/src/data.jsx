@@ -112,7 +112,6 @@ export const portfolioData = {
     },
   ],
   
-  // Education section
   education: [
     {
       institution: "MUTHOOT INSTITUTE OF TECHNOLOGY AND SCIENCE",
