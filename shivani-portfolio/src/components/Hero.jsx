@@ -2,7 +2,7 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import { portfolioData } from '../data';
-import resumePdf from '../assets/Shivani Santhosh Kumar Bhat (3).pdf';
+import resumePdf from '../assets/Shivani Santhosh Kumar Bhat.pdf';
 
 const Hero = () => {
   const roles = useMemo(
