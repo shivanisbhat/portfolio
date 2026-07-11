@@ -39,6 +39,18 @@ export const portfolioData = {
   // Experience section
   experience: [
     {
+      role: "Intern – Semiconductor Vertical",
+      company: "Quest Global",
+      date: "Present",
+      description: [
+        "Developing a web-based platform for analyzing and visualizing Physical Design (PD) reports used in VLSI workflows.",
+        "Built responsive React-based user interfaces to simplify the review and analysis of backend design reports.",
+        "Integrated FastAPI services for report upload, data processing, and seamless dashboard visualization.",
+        "Designed interactive dashboards and data tables to improve report navigation and user experience.",
+        "Collaborated with Physical Design engineers to understand reporting workflows and translate requirements into application features."
+      ],
+    },
+    {
       role: "MERN Full Stack Developer Intern",
       company: "Up-to-Skill",
       date: "Oct 2025 - Feb 2026",
@@ -47,7 +59,17 @@ export const portfolioData = {
         "Implemented and enhanced interactive animations and visual effects across multiple resume templates to improve user experience.",
         "Collaborated with the development team to refine template layouts, styling, and overall interface consistency."
       ],
-    }
+    },
+    {
+      role: "Front End Web Development Intern",
+      company: "Edunet Foundation",
+      date: "Aug 2025 - Oct 2025",
+      description: [
+        "Completed a 6-week AICTE-recognized Front End Web Development internship in collaboration with IBM SkillsBuild.",
+        "Built responsive and accessible web interfaces using modern frontend development practices.",
+        "Developed and deployed a Dynamic Weather Dashboard with real-time weather, air quality monitoring, and 5-day forecasting using a live Weather API."
+      ],
+    },
   ],
   
   projects: [
