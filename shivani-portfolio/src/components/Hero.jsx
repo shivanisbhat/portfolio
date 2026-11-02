@@ -3,6 +3,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { portfolioData } from '../data';
 import resumePdf from '../assets/Shivani Santhosh Kumar Bhat.pdf';
+import tcs_score from '../assets/TCS_ION_Score Card.pdf';
 
 const Hero = () => {
   const roles = useMemo(
@@ -85,6 +86,7 @@ const Hero = () => {
           <a href={portfolioData.contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
           <a href={portfolioData.contact.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
           <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View Resume</a>
+          <a href={tcs_score} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">View TCS Score Card</a>
         </div>
       </div>
     </section>

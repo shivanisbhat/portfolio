@@ -138,7 +138,7 @@ export const portfolioData = {
     {
       institution: "MUTHOOT INSTITUTE OF TECHNOLOGY AND SCIENCE",
       degree: "Bachelor of Technology, Computer Science & Engineering",
-      grade: "CGPA: 8.09",
+      grade: "CGPA: 8.10",
       year: "2027",
     },
     {
